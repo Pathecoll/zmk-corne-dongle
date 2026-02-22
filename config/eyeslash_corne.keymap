@@ -79,10 +79,10 @@
         Symbols {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL       &kp AT     &kp HASH              &kp DLLR               &kp PRCNT                                    &mmv MOVE_UP                     &kp CARET  &kp AMPS          &kp ASTRK          &kp QUESTION    &kp APOSTROPHE   &trans
-&trans  &kp PLUS       &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp LESS_THAN  &kp PIPE   &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH      &trans                    &mmv MOVE_DOWN                   &kp GRAVE  &kp UNDER         &kp SLASH          &kp TILDE       &kp SEMI         &trans
-                                  &kp C_VOL_DN          &kp C_VOL_UP           &mo 3                                                                         &trans     &kp C_PLAY_PAUSE  &trans
+&kp LEFT_GUI    &kp EXCL       &kp AT     &kp HASH              &kp DLLR               &kp PRCNT                                    &mmv MOVE_UP                     &kp CARET  &kp AMPS           &kp ASTRK          &kp QUESTION    &kp APOSTROPHE   &kp RIGHT_GUI
+&kp LEFT_SHIFT  &kp PLUS       &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp COLON  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_SHIFT
+&kp LEFT_ALT    &kp LESS_THAN  &kp PIPE   &kp MINUS             &kp GREATER_THAN       &kp BACKSLASH      &trans                    &mmv MOVE_DOWN                   &kp GRAVE  &kp UNDER          &kp SLASH          &kp TILDE       &kp SEMI         &kp RIGHT_ALT
+                                          &trans                &kp LEFT_CONTROL       &mo 3                                                                         &trans     &kp RIGHT_CONTROL  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
