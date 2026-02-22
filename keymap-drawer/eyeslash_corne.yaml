@@ -52,9 +52,9 @@ layers:
   NUMBER:
   - F1
   - F2
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
@@ -80,9 +80,9 @@ layers:
   - F10
   - F5
   - F6
-  - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:keyboard-tab$$
   - (
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
