@@ -99,7 +99,7 @@ layers:
   - {t: '0', s: )}
   - {t: ., s: '>'}
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - '!'
   - '@'
   - '#'
@@ -111,8 +111,8 @@ layers:
   - '*'
   - '?'
   - <
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-shift$$
   - +
   - {t: '=', s: +}
   - (
@@ -126,8 +126,8 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - <
   - '|'
   - {t: '-', s: _}
@@ -140,12 +140,12 @@ layers:
   - {t: /, s: '?'}
   - '~'
   - {t: ;, s: ':'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - $$mdi:apple-keyboard-control$$
   - Fn
   - {type: held}
-  - PLAY PAUSE
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - F1
