@@ -25,6 +25,12 @@
     trigger-period-ms = <16>;
 };
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms= <>175;
+}
+
 / {
     behaviors {
         td0: td0 {
